@@ -1,0 +1,25 @@
+<project>
+
+    <target name="clean">
+        <delete dir="simple/build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="simple/build/classes"/>
+        <javac srcdir="simple/src/main" destdir="simple/build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="simple/build/jar"/>
+        <jar destfile="simple/build/jar/gpi2a83145.jar" basedir="simple/build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="es.unavarra.gpi2.App"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="simple/build/jar/gpi2a83145.jar" fork="true"/>
+    </target>
+
+</project>
