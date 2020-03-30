@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse.jdt.core.compiler</groupId>
+	<artifactId>ecj</artifactId>
+	<version>3.16.0</version>
+	<packaging>jar</packaging>
+	<!-- Originally downloaded here: 
+		http://download.eclipse.org/eclipse/downloads/drops4/R-4.2.1-201209141800/#JDTCORE
+	-->
+	<name>Eclipse ECJ</name>
+	<description>Eclipse JDT Core Batch Compiler</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		
+			<debian.originalVersion>3.16.0</debian.originalVersion>
+		
+			<debian.package>libecj-java</debian.package>
+	</properties>
+</project>

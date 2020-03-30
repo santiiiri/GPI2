@@ -1,0 +1,16 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.jdt</groupId>
+  <artifactId>ecj</artifactId>
+  <version>debian</version>
+  <properties>
+    <debian.package>libecj-java</debian.package>
+  </properties>
+  <distributionManagement>
+    <relocation>
+      <groupId>org.eclipse.jdt.core.compiler</groupId>
+      <artifactId>ecj</artifactId>
+      <version>debian</version>
+    </relocation>
+  </distributionManagement>
+</project>
