@@ -1,0 +1,6 @@
+1. Descargar archivo jenkins.war
+2. Colocarlo en /var/lib/tomcat8/webapps con: sudo cp jenkins.war /var/lib/tomcat8/webapps
+3. ejecutar el comando: java -Xms2G -Xmx2G -jar jenkins.war --httpPort=8081
+4. Acceder a: http://localhost:8081
+5. Copiar la contraseña que te aperece ejecutando el paso 3.
+6. Pegar la contraseña en el campo de contraseña.
